@@ -90,9 +90,9 @@
   "terminal.integrated.enableVisualBell": true,
   "explorer.confirmDelete": false,
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
-    "markdown": false,
+    "markdown": true,
     "scminput": false
   },
   "workbench.colorCustomizations": {
@@ -134,9 +134,9 @@
       "editor.wordHighlightStrongBackground": "#abb2bf26",
       "editor.wordHighlightStrongBorder": "#7f848e"
     },
-    "statusBar.background": "#005f5f",
-    "statusBar.noFolderBackground": "#005f5f",
-    "statusBar.debuggingBackground": "#005f5f",
+    "statusBar.background": "#5f0000",
+    "statusBar.noFolderBackground": "#5f0000",
+    "statusBar.debuggingBackground": "#5f0000",
     "statusBar.foreground": "#ffffff",
     "statusBar.debuggingForeground": "#ffffff"
   }

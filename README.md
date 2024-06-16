@@ -9,6 +9,8 @@ This repository contains the configuration files for my Visual Studio Code (VSCo
 
 # Setup
 
+First, make sure VSCode is installed and opened at least once. Now close VSCode and follow the instructions below.
+
 For Linux:
 
 ```sh
