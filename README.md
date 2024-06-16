@@ -56,3 +56,11 @@ ln -s ~/vscode-config/extensions.json ~/.vscode/extensions/extensions.json
 For Windows:
 
 Simply copy the files and replace the existing ones of VSCode.
+
+### Extension Installation Script
+
+You need to have [jq](https://jqlang.github.io/jq/) installed on your system
+
+```sh
+cat ~/vscode-config/extensions.json | jq '.[].identifier.id' | xargs -n 1 code --install-extension
+```
