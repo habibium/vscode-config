@@ -70,6 +70,14 @@
           "command": "editor.emmet.action.matchTag"
         }
       ]
+    },
+    {
+      "before": ["g", "d"],
+      "commands": [
+        {
+          "command": "editor.action.openLink"
+        }
+      ]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
@@ -90,7 +98,7 @@
   "terminal.integrated.enableVisualBell": true,
   "explorer.confirmDelete": false,
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": false,
     "markdown": true,
     "scminput": false
@@ -134,10 +142,15 @@
       "editor.wordHighlightStrongBackground": "#abb2bf26",
       "editor.wordHighlightStrongBorder": "#7f848e"
     },
-    "statusBar.background": "#5f0000",
-    "statusBar.noFolderBackground": "#5f0000",
-    "statusBar.debuggingBackground": "#5f0000",
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
     "statusBar.foreground": "#ffffff",
     "statusBar.debuggingForeground": "#ffffff"
-  }
+  },
+  "editor.linkedEditing": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "terminal.integrated.inheritEnv": false
 }
