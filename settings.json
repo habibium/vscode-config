@@ -57,15 +57,13 @@
     "**/**/index.{html,css,js,ts,jsx,tsx}": "${dirname}/"
   },
   "vim.smartRelativeLine": true,
-  "vim.statusBarColorControl": true,
   "vim.cursorStylePerMode.insert": "line",
   "vim.cursorStylePerMode.normal": "block",
   "vim.cursorStylePerMode.replace": "block-outline",
-  "vim.cursorStylePerMode.visual": "block",
-  "vim.useSystemClipboard": true,
-  "vim.highlightedyank.enable": true,
-  "vim.visualstar": true,
-  "vim.highlightedyank.color": "rgba(69, 125, 255, 0.5)",
+  "vim.cursorStylePerMode.visual": "line-thin",
+  "vim.cursorStylePerMode.visualline": "line-thin",
+  "vim.cursorStylePerMode.visualblock": "line-thin",
+  "vim.leader": "space",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["<leader>", "%"],
@@ -84,17 +82,6 @@
       ]
     }
   ],
-  "vim.visualModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "%"],
-      "commands": [
-        {
-          "command": "editor.emmet.action.matchTag"
-        }
-      ]
-    }
-  ],
-  "vim.leader": "space",
   "cSpell.userWords": ["webp"],
   "accessibility.signals.terminalBell": {
     "sound": "on"
@@ -115,6 +102,7 @@
     "diffEditor.removedTextBackground": "#f005",
     "list.activeSelectionBackground": "#444",
     "titleBar.activeBackground": "#000",
+    "editorIndentGuide.activeBackground1": "#fff",
     "tree.indentGuidesStroke": "#fff",
     "tree.inactiveIndentGuidesStroke": "#ffffff44",
     "editor.background": "#000",
@@ -131,26 +119,7 @@
     "editorSuggestWidget.border": "#fff5",
     "editorSuggestWidget.selectedForeground": "#fff",
     "editorSuggestWidget.selectedBackground": "#fff5",
-    "scrollbarSlider.background": "#fff3",
-    "[One Dark Pro]": {
-      "editor.findMatchBackground": "#42557b",
-      "editor.findMatchBorder": "#457dff",
-      "editor.findMatchHighlightBackground": "#6199ff2f",
-      "editor.foreground": "#abb2bf",
-      "editor.lineHighlightBackground": "#2c313c",
-      "editor.selectionBackground": "#67769660",
-      "editor.selectionHighlightBackground": "#ffffff10",
-      "editor.selectionHighlightBorder": "#dddddd",
-      "editor.wordHighlightBackground": "#d2e0ff2f",
-      "editor.wordHighlightBorder": "#7f848e",
-      "editor.wordHighlightStrongBackground": "#abb2bf26",
-      "editor.wordHighlightStrongBorder": "#7f848e"
-    },
-    "statusBar.background": "#005f5f",
-    "statusBar.noFolderBackground": "#005f5f",
-    "statusBar.debuggingBackground": "#005f5f",
-    "statusBar.foreground": "#ffffff",
-    "statusBar.debuggingForeground": "#ffffff"
+    "scrollbarSlider.background": "#fff3"
   },
   "editor.linkedEditing": true,
   "[python]": {
