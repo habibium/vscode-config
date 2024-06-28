@@ -60,5 +60,10 @@
     "key": "cmd+i",
     "command": "-workbench.action.terminal.chat.start",
     "when": "inlineChatHasProvider && terminalFocusInAny && terminalHasBeenCreated || inlineChatHasProvider && terminalFocusInAny && terminalProcessSupported"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.addSelectionToPreviousFindMatch",
+    "when": "editorFocus"
   }
 ]
