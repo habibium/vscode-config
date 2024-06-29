@@ -27,12 +27,6 @@
   "editor.wordWrap": "on",
   "explorer.confirmDelete": false,
   "git.confirmSync": false,
-  "github.copilot.enable": {
-    "*": false,
-    "markdown": true,
-    "plaintext": false,
-    "scminput": false
-  },
   "material-icon-theme.activeIconPack": "react_redux",
   "material-icon-theme.folders.color": "#f7a96c",
   "material-icon-theme.hidesExplorerArrows": true,
@@ -78,7 +72,10 @@
     "editorCursor.foreground": "#fff",
     "gitlens.trailingLineForegroundColor": "#bbbb",
     "tree.inactiveIndentGuidesStroke": "#ffffff44",
-    "tree.indentGuidesStroke": "#fff"
+    "tree.indentGuidesStroke": "#fff",
+    "editorGutter.addedBackground": "#00ff0084",
+    "editorGutter.modifiedBackground": "#ffff0084",
+    "editorGutter.deletedBackground": "#ff000084"
   },
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.editor.customLabels.patterns": {
