@@ -19,6 +19,7 @@
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
   "editor.inlineSuggest.showToolbar": "always",
+  "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
@@ -65,7 +66,9 @@
       ]
     }
   ],
-  "vim.smartRelativeLine": true,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground1": "#fff",
     "editorCursor.background": "#000",
@@ -86,5 +89,16 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 16,
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "terminal.integrated.enableVisualBell": true
 }
