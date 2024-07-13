@@ -65,5 +65,13 @@
     "key": "shift+cmd+d",
     "command": "editor.action.addSelectionToPreviousFindMatch",
     "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+`",
+    "command": "workbench.action.terminal.killAll"
+  },
+  {
+    "key": "ctrl+alt+`",
+    "command": "workbench.action.terminal.kill"
   }
 ]
