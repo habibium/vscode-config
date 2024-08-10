@@ -5,9 +5,7 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
-    "cSpell.userWords": [
-        "webp"
-    ],
+    "cSpell.userWords": ["webp"],
     "color-highlight.markerType": "dot-before",
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.maxComputationTime": 0,
@@ -37,7 +35,7 @@
     "security.promptForLocalFileProtocolHandling": false,
     "security.workspace.trust.untrustedFiles": "open",
     "telemetry.telemetryLevel": "off",
-    "terminal.external.osxExec": "/Applications/Warp.app",
+    "terminal.external.osxExec": "/Applications/iTerm.app",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -46,16 +44,10 @@
     "vim.cursorStylePerMode.insert": "line",
     "vim.cursorStylePerMode.normal": "block",
     "vim.cursorStylePerMode.replace": "block-outline",
-    "vim.cursorStylePerMode.visual": "line-thin",
-    "vim.cursorStylePerMode.visualblock": "line-thin",
-    "vim.cursorStylePerMode.visualline": "line-thin",
     "vim.leader": "space",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": [
-                "<leader>",
-                "%"
-            ],
+            "before": ["leader", "%"],
             "commands": [
                 {
                     "command": "editor.emmet.action.matchTag"
@@ -63,11 +55,7 @@
             ]
         },
         {
-            "before": [
-                "<leader>",
-                "g",
-                "d"
-            ],
+            "before": ["<leader>", "g", "d"],
             "commands": [
                 {
                     "command": "editor.action.openLink"
