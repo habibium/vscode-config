@@ -1,77 +1,112 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-  {
-    "key": "cmd+left",
-    "command": "workbench.files.action.collapseExplorerFolders",
-    "when": "sideBarFocus && activeViewlet == 'workbench.view.explorer'"
-  },
-  {
-    "key": "shift+alt+=",
-    "command": "editor.emmet.action.balanceOut"
-  },
-  {
-    "key": "shift+alt+-",
-    "command": "editor.emmet.action.balanceIn"
-  },
-  {
-    "key": "shift+alt+w",
-    "command": "editor.emmet.action.wrapWithAbbreviation"
-  },
-  {
-    "key": "ctrl+shift+alt+p",
-    "command": "python.execInTerminal"
-  },
-  {
-    "key": "ctrl+n",
-    "command": "explorer.newFile",
-    "when": "sideBarFocus && activeViewlet == 'workbench.view.explorer'"
-  },
-  {
-    "key": "ctrl+a",
-    "command": "git.stageAll",
-    "when": "sideBarFocus && activeViewlet == 'workbench.view.scm'"
-  },
-  {
-    "key": "ctrl+shift+a",
-    "command": "git.unstageAll",
-    "when": "sideBarFocus && activeViewlet == 'workbench.view.scm'"
-  },
-  {
-    "key": "cmd+i",
-    "command": "-workbench.action.chat.stopListeningAndSubmit",
-    "when": "inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'editor' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'inline' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'quick' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'terminal' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'view' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'editor' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'inline' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'quick' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'terminal' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'view'"
-  },
-  {
-    "key": "cmd+i",
-    "command": "-workbench.action.chat.startVoiceChat",
-    "when": "chatIsEnabled && hasSpeechProvider && inChatInput && !chatSessionRequestInProgress && !editorFocus && !notebookEditorFocused && !scopedVoiceChatGettingReady && !speechToTextInProgress && !terminalChatActiveRequest || chatIsEnabled && hasSpeechProvider && inlineChatFocused && !chatSessionRequestInProgress && !editorFocus && !notebookEditorFocused && !scopedVoiceChatGettingReady && !speechToTextInProgress && !terminalChatActiveRequest"
-  },
-  {
-    "key": "cmd+i",
-    "command": "-workbench.action.terminal.chat.focusInput",
-    "when": "terminalChatFocus && !inlineChatFocused"
-  },
-  {
-    "key": "cmd+i",
-    "command": "-inlineChat.start",
-    "when": "editorFocus && inlineChatHasProvider && !editorReadonly"
-  },
-  {
-    "key": "cmd+i",
-    "command": "-workbench.action.terminal.chat.start",
-    "when": "inlineChatHasProvider && terminalFocusInAny && terminalHasBeenCreated || inlineChatHasProvider && terminalFocusInAny && terminalProcessSupported"
-  },
-  {
-    "key": "shift+cmd+d",
-    "command": "editor.action.addSelectionToPreviousFindMatch",
-    "when": "editorFocus"
-  },
-  {
-    "key": "ctrl+shift+alt+`",
-    "command": "workbench.action.terminal.killAll"
-  },
-  {
-    "key": "ctrl+alt+`",
-    "command": "workbench.action.terminal.kill"
-  }
+    {
+        "key": "cmd+left",
+        "command": "workbench.files.action.collapseExplorerFolders",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.explorer'"
+    },
+    {
+        "key": "shift+alt+=",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "shift+alt+-",
+        "command": "editor.emmet.action.balanceIn"
+    },
+    {
+        "key": "shift+alt+w",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    },
+    {
+        "key": "ctrl+shift+alt+p",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.explorer'"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "git.stageAll",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.scm'"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "git.unstageAll",
+        "when": "sideBarFocus && activeViewlet == 'workbench.view.scm'"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-workbench.action.chat.stopListeningAndSubmit",
+        "when": "inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'editor' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'inline' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'quick' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'terminal' || inChatInput && voiceChatInProgress && scopedVoiceChatInProgress == 'view' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'editor' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'inline' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'quick' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'terminal' || inlineChatFocused && voiceChatInProgress && scopedVoiceChatInProgress == 'view'"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-workbench.action.chat.startVoiceChat",
+        "when": "chatIsEnabled && hasSpeechProvider && inChatInput && !chatSessionRequestInProgress && !editorFocus && !notebookEditorFocused && !scopedVoiceChatGettingReady && !speechToTextInProgress && !terminalChatActiveRequest || chatIsEnabled && hasSpeechProvider && inlineChatFocused && !chatSessionRequestInProgress && !editorFocus && !notebookEditorFocused && !scopedVoiceChatGettingReady && !speechToTextInProgress && !terminalChatActiveRequest"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-workbench.action.terminal.chat.focusInput",
+        "when": "terminalChatFocus && !inlineChatFocused"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-inlineChat.start",
+        "when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-workbench.action.terminal.chat.start",
+        "when": "inlineChatHasProvider && terminalFocusInAny && terminalHasBeenCreated || inlineChatHasProvider && terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+`",
+        "command": "workbench.action.terminal.killAll"
+    },
+    {
+        "key": "ctrl+alt+`",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "alt+j",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+k",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+j",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+k",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+cmd+j",
+        "command": "-liveshare.join",
+        "when": "liveshare:state != 'Joined' && liveshare:state != 'Shared'"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+j",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    }
 ]
