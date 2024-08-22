@@ -1,104 +1,107 @@
 {
-    "[c]": {
-        "editor.defaultFormatter": "ms-vscode.cpptools"
-    },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "cSpell.userWords": ["webp"],
-    "color-highlight.markerType": "dot-before",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.maxComputationTime": 0,
-    "editor.accessibilitySupport": "off",
-    "editor.cursorStyle": "block",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.fontFamily": "'JetBrains Mono', monospace",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 14,
-    "editor.fontVariations": true,
-    "editor.formatOnSave": true,
-    "editor.guides.bracketPairs": true,
-    "editor.inlineSuggest.showToolbar": "always",
-    "editor.lineNumbers": "relative",
-    "editor.linkedEditing": true,
-    "editor.minimap.enabled": false,
-    "editor.quickSuggestions": {
-        "strings": true
-    },
-    "editor.wordWrap": "on",
-    "explorer.confirmDelete": false,
-    "git.confirmSync": false,
-    "material-icon-theme.activeIconPack": "react_redux",
-    "material-icon-theme.folders.color": "#f7a96c",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "reactSnippets.settings.importReactOnTop": false,
-    "security.promptForLocalFileProtocolHandling": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "telemetry.telemetryLevel": "off",
-    "terminal.external.osxExec": "/Applications/iTerm.app",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.inheritEnv": false,
-    "vim.cursorStylePerMode.insert": "line",
-    "vim.cursorStylePerMode.normal": "block",
-    "vim.cursorStylePerMode.replace": "block-outline",
-    "vim.highlightedyank.enable": true,
-    "vim.leader": "space",
-    "vim.normalModeKeyBindingsNonRecursive": [
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "cSpell.userWords": ["webp"],
+  "color-highlight.markerType": "dot-before",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+  "editor.accessibilitySupport": "off",
+  "editor.cursorStyle": "block",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontVariations": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.folders.color": "#f7a96c",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "reactSnippets.settings.importReactOnTop": false,
+  "security.promptForLocalFileProtocolHandling": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "telemetry.telemetryLevel": "off",
+  "terminal.external.osxExec": "/Applications/iTerm.app",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.inheritEnv": false,
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.highlightedyank.enable": true,
+  "vim.leader": "space",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["leader", "%"],
+      "commands": [
         {
-            "before": ["leader", "%"],
-            "commands": [
-                {
-                    "command": "editor.emmet.action.matchTag"
-                }
-            ]
-        },
-        {
-            "before": ["leader", "g", "d"],
-            "commands": [
-                {
-                    "command": "editor.action.openLink"
-                }
-            ]
+          "command": "editor.emmet.action.matchTag"
         }
-    ],
-    "extensions.experimental.affinity": {
-        "vscodevim.vim": 1
+      ]
     },
-    "workbench.colorCustomizations": {
-        "editorIndentGuide.activeBackground1": "#fff",
-        "editorCursor.background": "#000",
-        "editorCursor.foreground": "#fff",
-        "gitlens.trailingLineForegroundColor": "#bbbb",
-        "tree.inactiveIndentGuidesStroke": "#ffffff44",
-        "tree.indentGuidesStroke": "#fff",
-        "editorGutter.addedBackground": "#00ff0084",
-        "editorGutter.modifiedBackground": "#ffff0084",
-        "editorGutter.deletedBackground": "#ff000084"
-    },
-    "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.editor.customLabels.patterns": {
-        "**/**/index.{html,css,js,ts,jsx,tsx}": "${dirname}/",
-        "**/app/**/**/page.tsx": "${dirname}/"
-    },
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "none",
-    "workbench.tree.indent": 16,
-    "workbench.tree.renderIndentGuides": "always",
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": true,
-        "scminput": false
-    },
-    "liveServer.settings.donotShowInfoMsg": true,
-    "accessibility.signals.terminalBell": {
-        "sound": "on"
-    },
-    "terminal.integrated.enableVisualBell": true,
-    "prettier.tabWidth": 4,
-    "prettier.printWidth": 100
+    {
+      "before": ["leader", "g", "d"],
+      "commands": [
+        {
+          "command": "editor.action.openLink"
+        }
+      ]
+    }
+  ],
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground1": "#fff",
+    "editorCursor.background": "#000",
+    "editorCursor.foreground": "#fff",
+    "gitlens.trailingLineForegroundColor": "#bbbb",
+    "tree.inactiveIndentGuidesStroke": "#ffffff44",
+    "tree.indentGuidesStroke": "#fff",
+    "editorGutter.addedBackground": "#00ff0084",
+    "editorGutter.modifiedBackground": "#ffff0084",
+    "editorGutter.deletedBackground": "#ff000084"
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editor.customLabels.patterns": {
+    "**/**/index.{html,css,js,ts,jsx,tsx}": "${dirname}/",
+    "**/app/**/**/page.tsx": "${dirname}/"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "terminal.integrated.enableVisualBell": true,
+  "filesize.displayInfoOnTheRightSideOfStatusBar": true,
+  "terminal.explorerKind": "external"
 }
