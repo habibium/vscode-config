@@ -8,7 +8,7 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
-  "cSpell.userWords": ["webp"],
+  "cSpell.userWords": ["choropleth", "observablehq", "topojson", "webp"],
   "color-highlight.markerType": "dot-before",
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.maxComputationTime": 0,
@@ -103,5 +103,6 @@
   },
   "terminal.integrated.enableVisualBell": true,
   "filesize.displayInfoOnTheRightSideOfStatusBar": true,
-  "terminal.explorerKind": "external"
+  "terminal.explorerKind": "external",
+  "editor.cursorSurroundingLines": 8
 }
