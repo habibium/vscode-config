@@ -28,7 +28,7 @@
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
   "editor.inlineSuggest.showToolbar": "always",
-  "editor.lineNumbers": "on",
+  "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
@@ -111,5 +111,6 @@
   "filesize.displayInfoOnTheRightSideOfStatusBar": true,
   "terminal.explorerKind": "external",
   "editor.cursorSurroundingLines": 4,
-  "explorer.confirmPasteNative": false
+  "explorer.confirmPasteNative": false,
+  "github.copilot.preferredAccount": "habibium"
 }
