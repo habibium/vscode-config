@@ -21,7 +21,7 @@
   "editor.accessibilitySupport": "off",
   "editor.cursorStyle": "block",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.fontVariations": true,
@@ -112,5 +112,6 @@
   "terminal.explorerKind": "external",
   "editor.cursorSurroundingLines": 4,
   "explorer.confirmPasteNative": false,
-  "github.copilot.preferredAccount": "habibium"
+  "github.copilot.preferredAccount": "habibium",
+  "terminal.integrated.enableMultiLinePasteWarning": false
 }
