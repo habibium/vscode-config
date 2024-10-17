@@ -186,5 +186,30 @@
     "key": "shift+cmd+]",
     "command": "-workbench.action.debug.nextConsole",
     "when": "inDebugRepl"
+  },
+  {
+    "key": "alt+l",
+    "command": "toggle-relative-line-numbers.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-toggle-relative-line-numbers.toggle",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat.startWithCurrentLine",
+    "when": "editorFocus && github.copilot.chat.editor.enableLineTrigger && inlineChatHasProvider && !editorReadonly && !inlineChatVisible"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat.start",
+    "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly"
+  },
+  {
+    "key": "cmd+g cmd+m",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "panelAlignment == 'center' || panelPosition != 'bottom' && panelPosition != 'top'"
   }
 ]
