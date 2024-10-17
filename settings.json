@@ -9,14 +9,20 @@
     "editor.defaultFormatter": "redhat.java"
   },
   "cSpell.userWords": [
+    "Biriyani",
     "choropleth",
     "cpptools",
     "donot",
     "esbenp",
     "filesize",
+    "freecodecamp",
+    "habib",
     "habibium",
+    "Habibur",
+    "headlessui",
     "highlightedyank",
     "observablehq",
+    "Rahman",
     "scminput",
     "topojson",
     "vscodevim",
@@ -29,7 +35,6 @@
   "editor.cursorStyle": "block",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
-  "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.fontVariations": true,
   "editor.formatOnSave": true,
@@ -119,7 +124,7 @@
   "workbench.tree.indent": 16,
   "workbench.tree.renderIndentGuides": "always",
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": true,
     "scminput": false
@@ -134,12 +139,5 @@
   "editor.cursorSurroundingLines": 4,
   "explorer.confirmPasteNative": false,
   "github.copilot.preferredAccount": "habibium",
-  "files.exclude": {
-    "**/.DS_Store": false,
-    "**/.git": false,
-    "**/.hg": false,
-    "**/.svn": false,
-    "**/CVS": false,
-    "**/Thumbs.db": false
-  }
+  "explorer.confirmDragAndDrop": false
 }
