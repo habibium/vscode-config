@@ -73,7 +73,7 @@
   {
     "key": "cmd+w",
     "command": "workbench.action.terminal.kill",
-    "when": "terminalFocus && terminalHasBeenCreated && terminalProcessSupported"
+    "when": "terminalFocus && panelFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
   },
   {
     "key": "alt+j",
@@ -222,5 +222,59 @@
     "key": "ctrl+shift+`",
     "command": "-workbench.action.terminal.new",
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.terminal.focusAtIndex1",
+    "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile) && panelFocus"
+  
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.terminal.focusAtIndex2",
+    "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
+  
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.terminal.focusAtIndex3",
+    "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
+  
+  },
+  {
+    "key": "cmd+4",
+    "command": "workbench.action.terminal.focusAtIndex4",
+    "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
+  
+  },
+  {
+    "key": "cmd+5",
+    "command": "workbench.action.terminal.focusAtIndex5",
+    "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
+  
+  },
+  {
+    "key": "cmd+6",
+    "command": "workbench.action.terminal.focusAtIndex6",
+    "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
+  
+  },
+  {
+    "key": "cmd+7",
+    "command": "workbench.action.terminal.focusAtIndex7",
+    "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
+  
+  },
+  {
+    "key": "cmd+8",
+    "command": "workbench.action.terminal.focusAtIndex8",
+    "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
+  
+  },
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.terminal.focusAtIndex9",
+    "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
+  
   }
 ]
