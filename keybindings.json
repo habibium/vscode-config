@@ -67,12 +67,13 @@
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+shift+alt+`",
-    "command": "workbench.action.terminal.killAll"
-  },
-  {
     "key": "cmd+w",
     "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus && panelFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
+  },
+  {
+    "key": "cmd+shift+w",
+    "command": "workbench.action.terminal.killAll",
     "when": "terminalFocus && panelFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
   },
   {
@@ -276,5 +277,20 @@
     "command": "workbench.action.terminal.focusAtIndex9",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
   
-  }
+  },
+  {
+    "key": "ctrl+6",
+    "command": "-extension.vim_ctrl+6",
+    "when": "editorTextFocus && vim.active && vim.use<C-6> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
 ]
