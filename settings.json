@@ -8,6 +8,9 @@
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
   },
+  "[swift]": {
+    "editor.defaultFormatter": "sswg.swift-lang"
+  },
   "cSpell.userWords": [
     "Biriyani",
     "choropleth",
@@ -22,6 +25,7 @@
     "headlessui",
     "highlightedyank",
     "observablehq",
+    "Pressable",
     "Rahman",
     "scminput",
     "topojson",
@@ -52,7 +56,6 @@
   "material-icon-theme.activeIconPack": "react_redux",
   "material-icon-theme.folders.color": "#f7a96c",
   "material-icon-theme.hidesExplorerArrows": true,
-  "reactSnippets.settings.importReactOnTop": false,
   "security.promptForLocalFileProtocolHandling": false,
   "security.workspace.trust.untrustedFiles": "open",
   "telemetry.telemetryLevel": "off",
@@ -124,7 +127,7 @@
   "workbench.tree.indent": 16,
   "workbench.tree.renderIndentGuides": "always",
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": false,
     "markdown": true,
     "scminput": false
@@ -139,5 +142,6 @@
   "editor.cursorSurroundingLines": 4,
   "explorer.confirmPasteNative": false,
   "github.copilot.preferredAccount": "habibium",
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "reactSnippets.settings.importReactOnTop": false
 }
