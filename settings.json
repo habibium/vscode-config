@@ -141,7 +141,6 @@
   "terminal.explorerKind": "external",
   "editor.cursorSurroundingLines": 4,
   "explorer.confirmPasteNative": false,
-  "github.copilot.preferredAccount": "habibium",
   "explorer.confirmDragAndDrop": false,
   "reactSnippets.settings.importReactOnTop": false
 }
