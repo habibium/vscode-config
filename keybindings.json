@@ -18,10 +18,6 @@
     "command": "editor.emmet.action.wrapWithAbbreviation"
   },
   {
-    "key": "ctrl+cmd+r",
-    "command": "python.execInTerminal"
-  },
-  {
     "key": "ctrl+n",
     "command": "explorer.newFile",
     "when": "sideBarFocus && activeViewlet == 'workbench.view.explorer'"
@@ -228,55 +224,46 @@
     "key": "cmd+1",
     "command": "workbench.action.terminal.focusAtIndex1",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile) && panelFocus"
-  
   },
   {
     "key": "cmd+2",
     "command": "workbench.action.terminal.focusAtIndex2",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
-  
   },
   {
     "key": "cmd+3",
     "command": "workbench.action.terminal.focusAtIndex3",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
-  
   },
   {
     "key": "cmd+4",
     "command": "workbench.action.terminal.focusAtIndex4",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
-  
   },
   {
     "key": "cmd+5",
     "command": "workbench.action.terminal.focusAtIndex5",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
-  
   },
   {
     "key": "cmd+6",
     "command": "workbench.action.terminal.focusAtIndex6",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
-  
   },
   {
     "key": "cmd+7",
     "command": "workbench.action.terminal.focusAtIndex7",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
-  
   },
   {
     "key": "cmd+8",
     "command": "workbench.action.terminal.focusAtIndex8",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
-  
   },
   {
     "key": "cmd+9",
     "command": "workbench.action.terminal.focusAtIndex9",
     "when": "terminalFocus && (terminalProcessSupported || terminalWebExtensionContributedProfile)"
-  
   },
   {
     "key": "ctrl+6",
@@ -293,4 +280,17 @@
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
   },
+  {
+    "key": "cmd+k cmd+r",
+    "command": "-workbench.action.keybindingsReference"
+  },
+  {
+    "key": "cmd+k cmd+r",
+    "command": "git.revertSelectedRanges",
+    "when": "!operationInProgress"
+  },
+  {
+    "key": "ctrl+cmd+r",
+    "command": "python.execInTerminal-icon"
+  }
 ]
