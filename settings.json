@@ -12,6 +12,7 @@
     "editor.defaultFormatter": "sswg.swift-lang"
   },
   "cSpell.userWords": [
+    "apisauce",
     "Biriyani",
     "choropleth",
     "cpptools",
@@ -24,11 +25,13 @@
     "Habibur",
     "headlessui",
     "highlightedyank",
+    "lucide",
     "observablehq",
     "Pressable",
     "Rahman",
     "scminput",
     "topojson",
+    "unoptimized",
     "vscodevim",
     "webp"
   ],
@@ -127,7 +130,7 @@
   "workbench.tree.indent": 16,
   "workbench.tree.renderIndentGuides": "always",
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": true,
     "scminput": false
@@ -142,5 +145,7 @@
   "editor.cursorSurroundingLines": 4,
   "explorer.confirmPasteNative": false,
   "explorer.confirmDragAndDrop": false,
-  "reactSnippets.settings.importReactOnTop": false
+  "reactSnippets.settings.importReactOnTop": false,
+  "svgPreview.autoOpen": false,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true
 }
