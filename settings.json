@@ -11,6 +11,9 @@
   "[swift]": {
     "editor.defaultFormatter": "sswg.swift-lang"
   },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "cSpell.userWords": [
     "apisauce",
     "Biriyani",
@@ -26,6 +29,7 @@
     "headlessui",
     "highlightedyank",
     "lucide",
+    "nativewind",
     "observablehq",
     "Pressable",
     "Rahman",
@@ -35,7 +39,8 @@
     "vscodevim",
     "webp"
   ],
-  "color-highlight.markerType": "dot-before",
+  "color-highlight.markerType": "dot-after",
+  "color-highlight.matchHslWithNoFunction": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.maxComputationTime": 0,
   "editor.accessibilitySupport": "off",
@@ -48,10 +53,9 @@
   "editor.guides.bracketPairs": true,
   "editor.inlineSuggest.showToolbar": "always",
   "editor.lineNumbers": "relative",
-  "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
-    "strings": true
+    "strings": "on"
   },
   "editor.wordWrap": "on",
   "explorer.confirmDelete": false,
@@ -121,8 +125,8 @@
   },
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.editor.customLabels.patterns": {
-    "**/**/index.{html,css,js,ts,jsx,tsx}": "${dirname}/",
-    "**/app/**/**/page.tsx": "${dirname}/"
+    "**/app/**/**/page.tsx": "${dirname}/",
+    "**/**/index.{html,css,js,ts,jsx,tsx,astro}": "${dirname}/"
   },
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
@@ -154,5 +158,28 @@
     "typescript",
     "typescriptreact",
     "astro"
+  ],
+  "githubPullRequests.createOnPublishBranch": "never",
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "totalTypeScript.hiddenTips": [
+    "passing-generics-to-types",
+    "typeof",
+    "literal-type",
+    "ts-object-type",
+    "basic-types",
+    "type-alias-declaration",
+    "omit-utility-type",
+    "typing-function-parameters",
+    "array-type",
+    "variable-type-annotation",
+    "union-type",
+    "undefined-keyword",
+    "partial-utility-type",
+    "any-type",
+    "as-assertion"
   ]
 }
