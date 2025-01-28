@@ -31,6 +31,7 @@
     "lucide",
     "nativewind",
     "observablehq",
+    "overengineered",
     "Pressable",
     "Rahman",
     "scminput",
@@ -60,7 +61,6 @@
   "editor.wordWrap": "on",
   "explorer.confirmDelete": false,
   "git.confirmSync": false,
-  "material-icon-theme.activeIconPack": "react_redux",
   "material-icon-theme.folders.color": "#f7a96c",
   "material-icon-theme.hidesExplorerArrows": true,
   "security.promptForLocalFileProtocolHandling": false,
@@ -181,5 +181,7 @@
     "partial-utility-type",
     "any-type",
     "as-assertion"
-  ]
+  ],
+  "errorLens.enabledDiagnosticLevels": ["error"],
+  "material-icon-theme.activeIconPack": "react_redux"
 }
