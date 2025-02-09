@@ -125,12 +125,10 @@
     "editorGutter.modifiedBackground": "#ffff0084",
     "editorGutter.deletedBackground": "#ff000084"
   },
-  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.editor.customLabels.patterns": {
     "**/app/**/**/page.tsx": "${dirname}/",
     "**/**/index.{html,css,js,ts,jsx,tsx,astro}": "${dirname}/"
   },
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 16,
