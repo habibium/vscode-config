@@ -35,6 +35,7 @@
     "Pressable",
     "Rahman",
     "scminput",
+    "simfree",
     "topojson",
     "unoptimized",
     "vscodevim",
@@ -101,7 +102,8 @@
           "command": "editor.action.openLink"
         }
       ]
-    }
+    },
+    { "before": ["K"], "after": ["g", "h"] }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     {
@@ -182,6 +184,11 @@
     "any-type",
     "as-assertion"
   ],
-  "errorLens.enabledDiagnosticLevels": ["error"],
-  "material-icon-theme.activeIconPack": "react_redux"
+  "errorLens.enabledDiagnosticLevels": ["hint"],
+  "material-icon-theme.activeIconPack": "react_redux",
+  "tailwindCSS.experimental.classRegex": [
+    ["className:\\s*\"([^\"]*)\""], // For double quotes
+    ["className:\\s*'([^']*)'"], // For single quotes
+    ["className:\\s*`([^`]*)`"] // For template literals
+  ]
 }
