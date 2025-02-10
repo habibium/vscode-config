@@ -25,10 +25,12 @@ git clone git@github.com:habibium/vscode-config.git ~/Code/vscode-config
 # Copy the files
 cp ~/Code/vscode-config/settings.json ~/.config/Code/User/settings.json
 cp ~/Code/vscode-config/keybindings.json ~/.config/Code/User/keybindings.json
+cp ~/Code/vscode-config/extensions.json ~/.vscode/extensions/extensions.json
 
 # Or, if you prefer symlinks
 ln -sf ~/Code/vscode-config/settings.json ~/.config/Code/User/settings.json
 ln -sf ~/Code/vscode-config/keybindings.json ~/.config/Code/User/keybindings.json
+ln -sf ~/Code/vscode-config/extensions.json ~/.vscode/extensions/extensions.json
 ```
 
 For MacOS:
@@ -39,15 +41,18 @@ mv ~/Library/Application\ Support/Code/User/settings.json ~/Library/Application\
 mv ~/Library/Application\ Support/Code/User/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json.bak
 
 # Clone this repo
-git clone git@github.com:habibium/vscode-config.git ~/vscode-config
+mkdir -p ~/Code
+git clone git@github.com:habibium/vscode-config.git ~/Code/vscode-config
 
 # Copy the files
 cp ~/Code/vscode-config/settings.json ~/Library/Application\ Support/Code/User/settings.json
 cp ~/Code/vscode-config/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+cp ~/Code/vscode-config/extensions.json ~/.vscode/extensions/extensions.json
 
 # Or, if you prefer symlinks
 ln -sf ~/Code/vscode-config/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -sf ~/Code/vscode-config/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -sf ~/Code/vscode-config/extensions.json ~/.vscode/extensions/extensions.json
 ```
 
 For Windows:
