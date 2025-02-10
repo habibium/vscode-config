@@ -188,5 +188,6 @@
     ["className:\\s*\"([^\"]*)\""], // For double quotes
     ["className:\\s*'([^']*)'"], // For single quotes
     ["className:\\s*`([^`]*)`"] // For template literals
-  ]
+  ],
+  "workbench.colorTheme": "GitHub Dark Default"
 }
