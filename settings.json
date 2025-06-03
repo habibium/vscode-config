@@ -139,9 +139,9 @@
   "workbench.tree.renderIndentGuides": "always",
   "github.copilot.enable": {
     "*": true,
-    "plaintext": false,
     "markdown": true,
-    "scminput": false
+    "plaintext": true,
+    "scminput": true
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "accessibility.signals.terminalBell": {
