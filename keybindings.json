@@ -134,17 +134,8 @@
     "command": "workbench.action.previousEditor"
   },
   {
-    "key": "shift+cmd+[",
-    "command": "-workbench.action.previousEditor"
-  },
-  {
     "key": "alt+cmd+h",
     "command": "workbench.action.terminal.focusPrevious",
-    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
-  },
-  {
-    "key": "shift+cmd+[",
-    "command": "-workbench.action.terminal.focusPrevious",
     "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
   },
   {
@@ -153,17 +144,8 @@
     "when": "inDebugRepl"
   },
   {
-    "key": "shift+cmd+[",
-    "command": "-workbench.action.debug.prevConsole",
-    "when": "inDebugRepl"
-  },
-  {
     "key": "alt+cmd+l",
     "command": "workbench.action.nextEditor"
-  },
-  {
-    "key": "shift+cmd+]",
-    "command": "-workbench.action.nextEditor"
   },
   {
     "key": "alt+cmd+l",
@@ -171,18 +153,8 @@
     "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
   },
   {
-    "key": "shift+cmd+]",
-    "command": "-workbench.action.terminal.focusNext",
-    "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
-  },
-  {
     "key": "alt+cmd+l",
     "command": "workbench.action.debug.nextConsole",
-    "when": "inDebugRepl"
-  },
-  {
-    "key": "shift+cmd+]",
-    "command": "-workbench.action.debug.nextConsole",
     "when": "inDebugRepl"
   },
   {
@@ -302,5 +274,10 @@
     "key": "cmd+i",
     "command": "-inlineChat.startWithCurrentLine",
     "when": "inlineChatHasProvider && inlineChatShowingHint && !editorReadonly && !inlineChatVisible"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-inlineChat.start",
+    "when": "editorFocus && inlineChatHasEditsAgent && inlineChatPossible && !editorReadonly && !editorSimpleInput || editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly && !editorSimpleInput"
   }
 ]
