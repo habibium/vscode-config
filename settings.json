@@ -194,15 +194,33 @@
   "github.copilot.nextEditSuggestions.fixes": true,
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.svg": "imagePreview.previewEditor"
+    "*.svg": "imagePreview.previewEditor",
+    "*.md": "default"
   },
   "mcp": {
     "servers": {
       "context7": {
-        "type": "stdio",
         "command": "npx",
-        "args": ["-y", "@upstash/context7-mcp"]
+        "args": ["-y", "@upstash/context7-mcp@latest"]
+      },
+      "MongoDB": {
+        "command": "npx",
+        "args": [
+          "mongodb-mcp-server",
+          "--connectionString",
+          "mongodb://localhost:27017/"
+        ]
+      },
+      "playwright": {
+        "command": "npx",
+        "args": ["@playwright/mcp@latest"]
+      },
+      "github": {
+        "url": "https://api.githubcopilot.com/mcp/"
       }
     }
-  }
+  },
+  "chat.tools.autoApprove": true,
+  "vscode-office.editorTheme": "Auto",
+  "docker.extension.enableComposeLanguageServer": false
 }
